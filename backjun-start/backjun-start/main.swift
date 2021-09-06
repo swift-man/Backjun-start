@@ -7,4 +7,4 @@
 
 import Foundation
 
-level5()
+level6()
