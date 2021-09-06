@@ -16,13 +16,10 @@ import Foundation
  *****
  */
 func level1() {
-  let line = Int(readLine()!)!
+  let num = Int(readLine()!)!
   
-  for i in 0 ..< line {
-    for _ in 0 ..< i + 1 {
-      print("*", terminator: "")
-    }
-    print("")
+  for i in 1 ... num {
+    print(String(repeating: "*", count: i))
   }
 }
 
