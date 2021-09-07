@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		E55383F026E7214E00A9537A /* level8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level8.swift; sourceTree = "<group>"; };
 		E55383F226E722CC00A9537A /* level9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level9.swift; sourceTree = "<group>"; };
-		E5DFBE2F26E653DD000BFB8B /* backjun-start */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "backjun-start"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DFBE2F26E653DD000BFB8B /* baekjun-star */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "baekjun-star"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DFBE3226E653DD000BFB8B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E5DFBE3926E654FF000BFB8B /* level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1.swift; sourceTree = "<group>"; };
 		E5DFBE3B26E655E5000BFB8B /* level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		E5DFBE2626E653DD000BFB8B = {
 			isa = PBXGroup;
 			children = (
-				E5DFBE3126E653DD000BFB8B /* backjun-start */,
+				E5DFBE3126E653DD000BFB8B /* baekjun-star */,
 				E5DFBE3026E653DD000BFB8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 		E5DFBE3026E653DD000BFB8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5DFBE2F26E653DD000BFB8B /* backjun-start */,
+				E5DFBE2F26E653DD000BFB8B /* baekjun-star */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5DFBE3126E653DD000BFB8B /* backjun-start */ = {
+		E5DFBE3126E653DD000BFB8B /* baekjun-star */ = {
 			isa = PBXGroup;
 			children = (
 				E5DFBE3226E653DD000BFB8B /* main.swift */,
@@ -86,15 +86,15 @@
 				E55383F026E7214E00A9537A /* level8.swift */,
 				E55383F226E722CC00A9537A /* level9.swift */,
 			);
-			path = "backjun-start";
+			path = "baekjun-star";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5DFBE2E26E653DD000BFB8B /* backjun-start */ = {
+		E5DFBE2E26E653DD000BFB8B /* baekjun-star */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5DFBE3626E653DD000BFB8B /* Build configuration list for PBXNativeTarget "backjun-start" */;
+			buildConfigurationList = E5DFBE3626E653DD000BFB8B /* Build configuration list for PBXNativeTarget "baekjun-star" */;
 			buildPhases = (
 				E5DFBE2B26E653DD000BFB8B /* Sources */,
 				E5DFBE2C26E653DD000BFB8B /* Frameworks */,
@@ -104,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "backjun-start";
+			name = "baekjun-star";
 			productName = "backjun-start";
-			productReference = E5DFBE2F26E653DD000BFB8B /* backjun-start */;
+			productReference = E5DFBE2F26E653DD000BFB8B /* baekjun-star */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5DFBE2A26E653DD000BFB8B /* Build configuration list for PBXProject "backjun-start" */;
+			buildConfigurationList = E5DFBE2A26E653DD000BFB8B /* Build configuration list for PBXProject "baekjun-star" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5DFBE2E26E653DD000BFB8B /* backjun-start */,
+				E5DFBE2E26E653DD000BFB8B /* baekjun-star */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5DFBE2A26E653DD000BFB8B /* Build configuration list for PBXProject "backjun-start" */ = {
+		E5DFBE2A26E653DD000BFB8B /* Build configuration list for PBXProject "baekjun-star" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5DFBE3426E653DD000BFB8B /* Debug */,
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5DFBE3626E653DD000BFB8B /* Build configuration list for PBXNativeTarget "backjun-start" */ = {
+		E5DFBE3626E653DD000BFB8B /* Build configuration list for PBXNativeTarget "baekjun-star" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5DFBE3726E653DD000BFB8B /* Debug */,
