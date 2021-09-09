@@ -46,7 +46,12 @@ import Foundation
  첫째 줄에 N이 주어진다. N은 3의 거듭제곱이다. 즉 어떤 정수 k에 대해 N=3k이며, 이때 1 ≤ k < 8이다.
  */
 
-func blank(i: Int, j: Int, num: Int, input: Int, array: inout [[Character]], dp: inout [[Bool]]) {
+func blank(i: Int,
+           j: Int,
+           num: Int,
+           input: Int,
+           array: inout [[Character]],
+           dp: inout [[Bool]]) {
   if dp[i][j] {
     return
   }
@@ -59,11 +64,21 @@ func blank(i: Int, j: Int, num: Int, input: Int, array: inout [[Character]], dp:
   }
   
   if i + num * 3 < input {
-    blank(i: i + num * 3, j: j, num: num, input: input, array: &array, dp: &dp)
+    blank(i: i + num * 3,
+          j: j,
+          num: num,
+          input: input,
+          array: &array,
+          dp: &dp)
   }
   
   if j + num * 3 < input {
-    blank(i: i, j: j + num * 3, num: num, input: input, array: &array, dp: &dp)
+    blank(i: i,
+          j: j + num * 3,
+          num: num,
+          input: input,
+          array: &array,
+          dp: &dp)
   }
 }
 
@@ -74,9 +89,19 @@ func level10() {
   var dp = [[Bool]](repeating: [Bool](repeating: false, count: input), count: input)
   
   var power = 3
+  var powers: [Int] = []
   while power < input {
-    blank(i: power, j: power, num: power, input: input, array: &array, dp: &dp)
+    powers.append(power)
     power = power * 3
+  }
+  
+  for p in powers.reversed() {
+    blank(i: p,
+          j: p,
+          num: p,
+          input: input,
+          array: &array,
+          dp: &dp)
   }
   
   for i in stride(from: 0, to: input, by: 3) {
