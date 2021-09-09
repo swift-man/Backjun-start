@@ -6,20 +6,24 @@
 //
 
 import Foundation
+/*
+ 예제를 보고 규칙을 유추한 뒤에 별을 찍어 보세요.
+ // 3
+  *
+ **
+***
+ **
+  *
+ */
 
-
-
-func test() {
-  let input = 3
-  let index = 5
-  let a = Int(log(Double(54)))
-//  let b = pow(Double(2), Double(index))
+func level12() {
+  let input = Int(readLine()!)!
   
-  
-  for i in 1 ..< 1000 {
-    print(i, log(Double(i)))
+  for i in 1 ... input {
+    print(String(repeating: " ", count: input - i) + String(repeating: "*", count: i))
   }
   
-//  print(a)
-//  print(b)
+  for i in 1 ... input {
+    print(String(repeating: " ", count: i) + String(repeating: "*", count: input - i))
+  }
 }
